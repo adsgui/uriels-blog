@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Uriels Blog: Chamada REST + AsyncTask</string>
+    <string name="title">Listagem de Estados</string>
+    <string name="subtitle">Os estados serão obtidos via REST</string>
+
+    <string name="alert_title">Alerta</string>
+    <string name="alert_error">Ocorreu um erro ao pesquisar os estados.</string>
+    <string name="alert_ok">Tudo bem! :(</string>
+    
+    <string name="progress_title">Aguarde</string>
+    <string name="progress_message">Carregando lista de estados.</string>
+    
+</resources>

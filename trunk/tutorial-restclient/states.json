@@ -1,0 +1,27 @@
+[{"id":1,"name":"Acre","shortName":"AC"}
+,{"id":2,"name":"Alagoas","shortName":"AL"}
+,{"id":4,"name":"Amapá","shortName":"AP"}
+,{"id":3,"name":"Amazonas","shortName":"AM"}
+,{"id":5,"name":"Bahia","shortName":"BA"}
+,{"id":6,"name":"Ceará","shortName":"CE"}
+,{"id":7,"name":"Distrito Federal","shortName":"DF"}
+,{"id":8,"name":"Espírito Santo","shortName":"ES"}
+,{"id":9,"name":"Goiás","shortName":"GO"}
+,{"id":10,"name":"Maranhão","shortName":"MA"}
+,{"id":13,"name":"Mato Grosso","shortName":"MT"}
+,{"id":12,"name":"Mato Grosso do Sul","shortName":"MS"}
+,{"id":11,"name":"Minas Gerais","shortName":"MG"}
+,{"id":18,"name":"Paraná","shortName":"PR"}
+,{"id":15,"name":"Paraíba","shortName":"PB"}
+,{"id":14,"name":"Pará","shortName":"PA"}
+,{"id":16,"name":"Pernambuco","shortName":"PE"}
+,{"id":17,"name":"Piauí","shortName":"PI"}
+,{"id":20,"name":"Rio Grande do Norte","shortName":"RN"}
+,{"id":23,"name":"Rio Grande do Sul","shortName":"RS"}
+,{"id":19,"name":"Rio de Janeiro","shortName":"RJ"}
+,{"id":21,"name":"Rondônia","shortName":"RO"}
+,{"id":22,"name":"Roraima","shortName":"RR"}
+,{"id":24,"name":"Santa Catarina","shortName":"SC"}
+,{"id":25,"name":"Sergipe","shortName":"SE"}
+,{"id":26,"name":"São Paulo","shortName":"SP"}
+,{"id":27,"name":"Tocantins","shortName":"TO"}]
