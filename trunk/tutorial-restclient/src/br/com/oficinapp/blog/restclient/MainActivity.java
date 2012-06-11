@@ -32,7 +32,6 @@ import org.json.JSONObject;
 import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -53,9 +52,6 @@ import android.widget.Toast;
  */
 public class MainActivity extends ListActivity {
 	
-	/** Armazenar pois iremos precisar disso! */
-	private Context context;
-	
 	/** Diálogo para tela de espera. */
 	private ProgressDialog progressDialog;
 	
@@ -66,7 +62,6 @@ public class MainActivity extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.state_list);
         
-        context = this;
     	ListView lv = getListView();
     	lv.setTextFilterEnabled(true);
     	lv.setOnItemClickListener(new OnItemClickListener() {
@@ -114,7 +109,7 @@ public class MainActivity extends ListActivity {
     		// Criar a barra de progresso indeterminado que será exibida
     		// durante a execução do worker thread.
     		//
-    		progressDialog = ProgressDialog.show( context
+    		progressDialog = ProgressDialog.show( MainActivity.this
                                                 , getString(R.string.progress_title)
                                                 , getString(R.string.progress_message)
                                                 , true
@@ -171,7 +166,7 @@ public class MainActivity extends ListActivity {
 			// o resultado obtido pela consulta.
 			//
 			progressDialog.dismiss();
-			setListAdapter( new ArrayAdapter<String>( context
+			setListAdapter( new ArrayAdapter<String>( MainActivity.this
 					                                , R.layout.state_list_item
 					                                , result ) );
 			
@@ -181,7 +176,7 @@ public class MainActivity extends ListActivity {
 			//
 			if (result == null) {
 
-				final AlertDialog.Builder builder = new AlertDialog.Builder(context);
+				final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
 				builder.setCancelable(false)
 				       .setTitle(R.string.alert_title)
 				       .setMessage(R.string.alert_error)
