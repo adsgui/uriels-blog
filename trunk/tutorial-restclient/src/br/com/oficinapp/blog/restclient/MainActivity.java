@@ -64,6 +64,7 @@ public class MainActivity extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
     	
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.state_list);
         
         context = this;
     	ListView lv = getListView();
