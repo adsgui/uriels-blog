@@ -1,0 +1,1 @@
+No blog http://www.oficinapp.net/blog você encontrará artigos falando sobre arquitetura, engenharia e construção de sistemas, com grande foco na linguagem Java (JEE e Android). Os códigos-fontes destes artigos serão publicados neste repositório.
